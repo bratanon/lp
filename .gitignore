@@ -1,0 +1,6 @@
+log/*
+nbproject/*
+web/*
+tmp/*
+vhosts/*
+!web/profiles/lp/*
