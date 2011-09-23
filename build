@@ -1,0 +1,4 @@
+#!/bin/bash
+cd web;
+drush -y make --contrib-destination=. profiles/lp/lp.make
+echo "done!"
