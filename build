@@ -1,4 +1,8 @@
 #!/bin/bash
 cd web;
-drush -y make --contrib-destination=. profiles/lp/lp.make
+drush -y make --contrib-destination=profiles/lp/ profiles/lp/lp.make
+cd web/profiles/lp/modules;
+git clone --branch 7.x-2.x $1@git.drupal.org:project/linkit.git linkit;
+mkdir ../../../sites/default/files
+chmod 777 ../../../sites/default/files
 echo "done!"
