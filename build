@@ -2,10 +2,12 @@
 sudo chmod -R 775 .
 cd web/;
 sudo -u www-data drush -y make core.make
-cd web/profiles/lp;
+cd profiles/lp;
 sudo -u www-data drush -y make --no-core --contrib-destination=. lp.make
 #//cd web/profiles/lp/modules;
 #//git clone --branch 7.x-2.x $1@git.drupal.org:project/linkit.git linkit;
 #//mkdir ../../../sites/default/files
 #//chmod 777 ../../../sites/default/files
+cd ../../../
+sudo chmod -R 775 .
 echo "done!"

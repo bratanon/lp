@@ -54,9 +54,9 @@ libraries[ckeditor][download][type] = get
 libraries[ckeditor][download][url] = http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.2/ckeditor_3.6.2.tar.gz
 libraries[ckeditor][destination] = libraries
 
-;libraries[tinymce][download][type] = get
-;libraries[tinymce][download][url] = http://www.tinymce.com/track.php?url=http%3A%2F%2Fgithub.com%2Fdownloads%2Ftinymce%2Ftinymce%2Ftinymce_3.4.5.zip
-;libraries[tinymce][destination] = libraries
+libraries[tinymce][download][type] = get
+libraries[tinymce][download][url] = https://github.com/downloads/tinymce/tinymce/tinymce_3.4.5.zip
+libraries[tinymce][destination] = libraries
 
 libraries[fckeditor][download][type] = get
 libraries[fckeditor][download][url] = http://sourceforge.net/project/downloading.php?group_id=75348&filename=FCKeditor_2.6.6.tar.gz
