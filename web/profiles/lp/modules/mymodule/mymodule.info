@@ -1,0 +1,8 @@
+
+name = Linkit test mymodule
+
+description = Test linkit hooks and alters
+
+core = 7.x
+
+dependencies[] = linkit

@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the LP Structure feature.
+ */
+
+include_once('lp_structure.features.inc');
