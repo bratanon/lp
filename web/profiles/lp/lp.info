@@ -1,0 +1,70 @@
+name = Linkit Profile 
+description = Linkit Profile
+core = 7.x
+
+; Core dependencies
+dependencies[] = block
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = help
+dependencies[] = image
+dependencies[] = path
+;dependencies[] = overlay
+dependencies[] = block
+dependencies[] = dblog
+dependencies[] = menu
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = list
+dependencies[] = number
+dependencies[] = options
+dependencies[] = taxonomy
+dependencies[] = toolbar
+dependencies[] = shortcut
+
+; Contrib dependencies
+dependencies[] = ctools
+dependencies[] = entity
+dependencies[] = strongarm
+dependencies[] = features
+dependencies[] = uuid
+dependencies[] = uuid_features
+dependencies[] = wysiwyg
+;dependencies[] = ckeditor
+dependencies[] = devel
+dependencies[] = coder
+dependencies[] = coder_review
+dependencies[] = diff
+dependencies[] = token
+dependencies[] = imce
+;dependencies[] = imce_wysiwyg
+dependencies[] = panels
+dependencies[] = views
+
+
+
+;dependencies[] = l10n_update
+
+; MuliLanguages
+;dependencies[] = locale
+;dependencies[] = translation
+;;dependencies[] = pathauto
+;;dependencies[] = pathologic
+
+; SingleLanguages
+;;dependencies[] = locale
+;;dependencies[] = translation
+;dependencies[] = pathauto
+;dependencies[] = pathologic
+
+
+; Linkt profile features
+dependencies[] = lp_structure
+dependencies[] = lp_taxonomy
+dependencies[] = lp_par
+
+; Linkit
+dependencies[] = linkit
+;dependencies[] = mymodule
+
+files[] = lp.profile
