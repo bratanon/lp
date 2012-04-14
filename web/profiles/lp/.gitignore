@@ -1,0 +1,4 @@
+/libraries/*
+
+/modules/*
+!/modules/lp_*
