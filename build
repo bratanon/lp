@@ -15,5 +15,10 @@ drush -y make ../project.make
 
 if pushd profiles/lp; then
   drush -y make --no-core --contrib-destination=. lp.make
+  
+  if pushd modules; then
+    git clone --branch 7.x-2.x anon@git.drupal.org:project/linkit.git
+    popd
+  fi
   popd
 fi
