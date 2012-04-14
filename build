@@ -1,0 +1,19 @@
+#!/bin/bash
+
+if [ -z $1 ]; then
+  prefix="http://";
+  suffix="/";
+else
+  prefix="$1@";
+  suffix=":";
+fi
+
+cd web
+
+drush -y make ../project.make
+
+
+if pushd profiles/lp; then
+  drush -y make --no-core --contrib-destination=. lp.make
+  popd
+fi

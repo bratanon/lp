@@ -1,0 +1,44 @@
+name = Linkit Profile 
+description = Linkit Profile
+core = 7.x
+
+; Core dependencies
+dependencies[] = block
+
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+
+dependencies[] = path
+dependencies[] = taxonomy
+
+dependencies[] = field_ui
+dependencies[] = file
+
+; Contrib dependencies
+dependencies[] = ctools
+dependencies[] = entity
+dependencies[] = wysiwyg
+dependencies[] = devel
+dependencies[] = devel_generate
+dependencies[] = coder
+dependencies[] = coder_review
+dependencies[] = diff
+dependencies[] = token
+dependencies[] = panels
+dependencies[] = panels_mini
+dependencies[] = views
+dependencies[] = views_ui
+dependencies[] = page_manager
+dependencies[] = views_content
+
+;dependencies[] = ckeditor
+;dependencies[] = imce_wysiwyg
+;dependencies[] = pathauto
+;dependencies[] = pathologic
+
+; Linkit
+;dependencies[] = linkit
+;dependencies[] = mymodule
+
+files[] = lp.profile

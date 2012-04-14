@@ -1,0 +1,10 @@
+/web/*
+!/web/profiles
+
+/web/profiles/*
+!/web/profiles/lp/
+
+nbproject/
+.DS_Store
+*~
+._*
